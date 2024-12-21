@@ -1,0 +1,65 @@
+html {
+    background-image: url(../assets/images/xp_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1 {
+    padding: 4px;
+}
+
+.p2{
+    padding: 8px;
+}
+
+.p3{
+    padding: 12px;
+}
+
+.p4{
+    padding: 16px;
+}
+
+.w100{
+    width: 100%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.fs14{
+    font-size: 14px;
+}
+
+.fs16{
+    font-size: 16px;
+}
+
+.fs24{
+    font-size: 24px;
+}
+
+.bold{
+    font-weight: bold;
+}
